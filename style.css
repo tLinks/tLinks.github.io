@@ -1,0 +1,40 @@
+.my-content {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+.hacker {
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body {
+    background: url('https://www.pixeden.com/media/k2/galleries/220/006-wood-melamine-subttle-pattern-background-pat.jpg');
+    color: white;
+    font-size: 22px;
+    font-family: 'Pacifico', 'Lucida Console', sans-serif;
+    z-index: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li a {
+    display: none;
+    color: white;
+}
+li a:hover {
+    display: inline-block;
+    cursor: none;
+    color: green;
+}
+.center {
+    text-align: center;
+}
+.hack-color {
+    color: green;
+}
